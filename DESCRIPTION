@@ -1,0 +1,11 @@
+Package: MetabNet
+Type: Package
+Title: MetabNet: An R package for performing targeted or untargeted metabolome-wide association analysis 
+Version: 1.0.1
+Date: 2017-07-10
+Author: Karan Uppal
+Maintainer: Karan Uppal <kuppal2@emory.edu>
+Description: The package allows users to perform correlation (complete or partial) based metabolome-wide network analysis. 
+License: GPL 2.0
+LazyLoad: yes
+Depends: igraph, foreach, limma, rgl, doSNOW,mixOmics,WGCNA, gplots, corpcor, pcaMethods
